@@ -11,19 +11,13 @@ export default class about extends Component {
             <Layout>
                 <SEO title="About"/>
             <div>
-                <h1>About</h1>
+                <h1>About Me</h1>
                 <p>
-                I'm baby leggings distillery shoreditch, chia messenger bag flexitarian pabst pok pok gentrify. 
-                Literally typewriter forage cliche you probably haven't heard of them seitan irony craft beer williamsburg butcher snackwave twee. 
-                Succulents distillery semiotics live-edge. Migas raw denim drinking vinegar, skateboard art party truffaut cronut synth. 
-                Literally sartorial poke selvage craft beer shaman heirloom etsy vape copper mug put a bird on it mlkshk thundercats kinfolk. 
-                Drinking vinegar shoreditch crucifix synth knausgaard williamsburg food truck meh.
+                I'm a 28 year old Father, Husband and Web Developer. I have been developing professionally for 6+ years. </p>
 
-                Dummy text? More like dummy thicc text, amirite? Lolololol
-                </p>
+                
             </div>
             </Layout>
-            
         )
     }
 }
