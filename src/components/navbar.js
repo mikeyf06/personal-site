@@ -39,7 +39,7 @@ export default class navbar extends Component {
                             <StyledLink to="/">Home</StyledLink>
                         </li>
                         <li>
-                            <StyledLink to="/about">About</StyledLink>
+                            <StyledLink to="/experience">Experience</StyledLink>
                         </li>
                         <li>
                             <StyledLink to="/contact">Contact</StyledLink>
