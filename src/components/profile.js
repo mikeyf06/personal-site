@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Image from "../components/image"
 import styled from "styled-components"
+import Socials from "../components/socials"
+import Layout from "../components/layout"
 
 
 const ProfilePicSection = styled.div `
@@ -60,6 +62,9 @@ export default class profile extends Component {
                 Drinking vinegar shoreditch crucifix synth knausgaard williamsburg food truck meh.
 
                 Dummy text? More like dummy thicc text, amirite? Lolololol
+                </p>
+                <p>
+                    {/* <Socials/> */}
                 </p>
                 </ProfileInfoSection>
 

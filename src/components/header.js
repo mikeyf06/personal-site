@@ -31,6 +31,7 @@ const HeaderContainer = styled.div`
 
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
+    
     <HeaderContainer>
       <h1 style={{ margin: 0 }}>
         <Link

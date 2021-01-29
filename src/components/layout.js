@@ -25,6 +25,13 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          author
+          contacts {
+            linkedin
+            github
+            twitter
+            instagram
+          }
         }
       }
     }
@@ -32,7 +39,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header 
+      siteTitle={data.site.siteMetadata?.title || `Title`} 
+      author={data.site.siteMetadata.author}
+      contacts={data.site.siteMetadata.contacts}
+      />
       <MainWrapper>
         <main>{children}</main>
       </MainWrapper>
