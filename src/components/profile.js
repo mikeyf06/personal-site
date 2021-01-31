@@ -4,7 +4,6 @@ import styled from "styled-components"
 import Socials from "../components/socials"
 import Layout from "../components/layout"
 
-
 const ProfilePicSection = styled.div `
     
 `;
@@ -63,8 +62,8 @@ export default class profile extends Component {
 
                 Dummy text? More like dummy thicc text, amirite? Lolololol
                 </p>
-                <p>
-                    {/* <Socials/> */}
+                <p>                    
+                    <Socials />
                 </p>
                 </ProfileInfoSection>
 
