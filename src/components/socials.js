@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from "styled-components"
-import FaLinkedIn from "react-icons/all-files/fa/FaLinkedIn"
+import { FaLinkedIn } from "@react-icons/all-files/fa/FaLinkedIn"
 
 const Socials = styled.div`
     display: flex;
@@ -14,7 +14,7 @@ export default class socials extends Component {
         <Socials>
             <a href="google.com" target="_blank">
                 <span title="LinkedIn">
-                    <FaLinkedIn size={22} style = {{ color: "secondary"}} />
+                    <FaLinkedIn />
                 </span>
             </a>
         </Socials>
