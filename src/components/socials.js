@@ -10,6 +10,7 @@ import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter"
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram"
 
 
+
 const SocialsDiv = styled.div`
     display: flex;
     flex-direction: row;

@@ -16,7 +16,7 @@ import "./layout.css"
 const MainWrapper = styled.div`
   margin: 0 auto;
   max-width: 70%;
-  max-height: 60%
+  height: 80%
   padding: 0 1.0875rem 1.45rem;
 `;
 
