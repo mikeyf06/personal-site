@@ -6,7 +6,8 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Profile from "../components/profile"
 
-const IndexPage = () => (
+const IndexPage = ({ contacts }) => {
+  return (
   <Layout>
     <SEO title="Home" />
     {
@@ -15,7 +16,7 @@ const IndexPage = () => (
     or sections come next.    
     */
     }
-    <Profile />
+    <Profile contacts={contacts} />
     <footer
       style={{
         marginTop: `2rem`,
@@ -26,6 +27,7 @@ const IndexPage = () => (
       <a href="/">Mike Flores</a>
     </footer>
   </Layout>
-)
+  )
+    }
 
 export default IndexPage

@@ -48,8 +48,13 @@ const VerticalLine = styled.div`
 `;
 
 
-export default class profile extends Component {
-    render() {
+
+
+// export default class profile extends Component {
+//     render() {
+
+const profile = ({ contacts }) => {
+    
         return (
             <ProfileCard>
                 <ImageContainer>
@@ -70,11 +75,15 @@ export default class profile extends Component {
                         Instagram. Currently, I only have this project displayed on GitHub; and well, LinkedIn is Linked in.
                     </p>
                     <p>                    
-                        <Socials />                        
+                        <Socials contacts={contacts} />                        
                     </p>
                 </ProfileInfoSection>
 
             </ProfileCard>
         )
-    }
-}
+        }
+
+//     }
+// }
+
+export default profile;

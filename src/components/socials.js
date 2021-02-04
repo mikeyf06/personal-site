@@ -8,7 +8,7 @@ import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin"
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter"
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram"
-
+import { useStaticQuery, graphql } from "gatsby"
 
 
 const SocialsDiv = styled.div`
@@ -25,13 +25,18 @@ const IconLink = styled.a`
 `;
 
 
-export default class socials extends Component {
-    render() {
+
+
+// export default class socials extends Component {
+//     render() {
+
+const socials = ({ contacts }) => {
+
         return (
         <SocialsDiv>
             <IconLink href="https://www.linkedin.com/in/michael-flores-b7a69472/" target="_blank">
                 <span title="LinkedIn">
-                    <FaLinkedin size={26} style={{color: "coolblue"}}/>
+                    <FaLinkedin size={26} style={{ color: "coolblue" }}/>
                 </span>
             </IconLink>
              <IconLink href="https://github.com/mikethedevdad" target="_blank">
@@ -51,7 +56,10 @@ export default class socials extends Component {
             </IconLink>
         </SocialsDiv>
         )
-    }
-}
+        }
+
+//     }
+// }
 
 
+export default socials;
