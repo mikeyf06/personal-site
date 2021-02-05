@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="">
-    <img alt="Mike Flores" src="" width="60" />
+    <img alt="Mike Flores" src="src/images/MF-Logo-v1-white-outline.png" width="60" />
   </a>
 </p>
 <h1 align="center">
