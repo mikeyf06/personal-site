@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
+  <a href="">
     <img alt="Mike Flores" src="" width="60" />
   </a>
 </p>
