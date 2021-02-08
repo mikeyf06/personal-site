@@ -36,6 +36,11 @@ const Grid2x2 = styled.div`
         flex-direction: column;
         margin-left: 10%;        
     }
+
+    > div > div {
+        margin-left: 4%;
+        margin-top: 10%;
+    }
 `;
 
 const Info1 = styled.div`
@@ -49,11 +54,7 @@ const Info1 = styled.div`
 const Info2 = styled.div`
     margin-top: 20%;
     border-left: 2px solid #404040;
-    border-bottom: 2px solid #404040;
-
-    > div {
-        margin-top: 5%;
-    }
+    border-bottom: 2px solid #404040; 
 `;
 
 const Info3 = styled.div`
@@ -88,7 +89,7 @@ export default class background extends Component {
                                 <ul>
                                     <li> C# </li>
                                     <li> JavaScript</li>
-                                    <li> SQL </li>
+                                    <li> SQL AAAA </li>
                                 </ul>
                             </div>
                         </Info1>
