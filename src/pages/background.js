@@ -37,10 +37,6 @@ const Grid2x2 = styled.div`
         margin-left: 10%;        
     }
 
-    > div > div {
-        margin-left: 4%;
-        margin-top: 10%;
-    }
 `;
 
 const Info1 = styled.div`
