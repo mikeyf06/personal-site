@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Profile from "../components/profile"
+import BackgroundInfo from "../components/backgroundinfo"
+import ContactForm from "../components/contactform"
 
 const IndexPage = ({ contacts }) => {
   return (
@@ -16,8 +18,11 @@ const IndexPage = ({ contacts }) => {
     or sections come next.    
     */
     }
-    <Profile contacts={contacts} />
-    <footer
+    <a id="profileSection"><Profile contacts={contacts} /></a>
+    
+    <a id="backgroundSection"><BackgroundInfo /></a>
+    <a id="contactSection"><ContactForm /></a>
+    {/* <footer
       style={{
         marginTop: `2rem`,
       }}
@@ -25,7 +30,7 @@ const IndexPage = ({ contacts }) => {
       © {new Date().getFullYear()}, Built by
       {` `}
       <a href="/">Mike Flores</a>
-    </footer>
+    </footer> */}
   </Layout>
   )
     }

@@ -1,18 +1,19 @@
-import React, {Component}  from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
+import React, { Component } from 'react'
 import Image from "../components/image"
-import SEO from "../components/seo"
 import styled from "styled-components"
+import Socials from "../components/socials"
+import Layout from "../components/layout"
 
 
 const Background = styled.div`
+    margin-top: 10%;
+    margin-left: 10%;
     display: flex;
     flex-direction: row;
 `;
 
 const BackgroundDescription = styled.div`
+    margin-top: 25%;
     width: 50%;
 `;
 
@@ -63,11 +64,12 @@ const Info4 = styled.div`
     border-top: 2px solid #404040;
 `;
 
-export default class background extends Component {
-    render() {
+
+// export default class profile extends Component {
+//     render() {
+
+const backgroundinfo = ({  }) => {
         return (
-            <Layout>
-                <SEO title="Background"/>
             <Background>
             <BackgroundDescription>
                 <h4>My Background</h4>
@@ -126,17 +128,14 @@ export default class background extends Component {
                                     </ul>
                             </div>
                         </Info4>
-                        <div>
-                            
-                        </div>
+                        {/* Add some more stuff here maybe */}
                     </Grid2x2>
                 </BackgroundInfo>
             </Background>
-            
-            
-
-            </Layout>
         )
-    }
-}
+        }
 
+//     }
+// }
+
+export default backgroundinfo;

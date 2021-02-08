@@ -36,13 +36,13 @@ export default class navbar extends Component {
                 <div id="navWrapper">
                     <ul id="nav">
                         <li>
-                            <StyledLink to="/">Home</StyledLink>
+                            <StyledLink to="#profileSection">Home</StyledLink>
                         </li>
                         <li>
-                            <StyledLink to="/background">Background</StyledLink>
+                            <StyledLink to="#backgroundSection">Background</StyledLink>
                         </li>
                         <li>
-                            <StyledLink to="/contact">Contact</StyledLink>
+                            <StyledLink to="#contactSection">Contact</StyledLink>
                         </li>
                     </ul>
                 </div>
