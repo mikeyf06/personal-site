@@ -70,7 +70,7 @@ const Info4 = styled.div`
 
 const backgroundinfo = ({  }) => {
         return (
-            <Background>
+            <Background id="backgroundSection">
             <BackgroundDescription>
                 <h4>My Background</h4>
                 <p>

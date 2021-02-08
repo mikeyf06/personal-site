@@ -56,7 +56,7 @@ const VerticalLine = styled.div`
 const profile = ({ contacts }) => {
     
         return (
-            <ProfileCard>
+            <ProfileCard id="profileSection">
                 <ImageContainer>
                     <h2 style={{paddingLeft: `10px`}}>Hi, I'm Mike.</h2>
                     <Image />
@@ -74,9 +74,9 @@ const profile = ({ contacts }) => {
                         Feel free to check out my socials below. Sometimes I tweet things, or post cool tech photos on
                         Instagram. Currently, I only have this project displayed on GitHub; and well, LinkedIn is Linked in.
                     </p>
-                    <p>                    
+                                      
                         <Socials contacts={contacts} />                        
-                    </p>
+                    
                 </ProfileInfoSection>
 
             </ProfileCard>

@@ -16,7 +16,7 @@
 <p> As of 2-5-2021, I'm available for work. I'm looking form a mid-senior level .NET web developer position. I've got familiarity in .NET Standard, Core, MVC, SQL, React, and much more. Please feel free to reach out if there's anything
 that you have available that may work out.</p>
 
-<p>Thanks for reading this if you have, have a good one!</p>
+<p>Thanks for reading this if you have, have a good one! Also, this site is a work in progress, and I suck at design ;)</p>
 
 <p>-Mike</p>
 

@@ -18,10 +18,9 @@ const IndexPage = ({ contacts }) => {
     or sections come next.    
     */
     }
-    <a id="profileSection"><Profile contacts={contacts} /></a>
-    
-    <a id="backgroundSection"><BackgroundInfo /></a>
-    <a id="contactSection"><ContactForm /></a>
+    <Profile contacts={contacts} />
+    <BackgroundInfo />
+    <ContactForm />
     {/* <footer
       style={{
         marginTop: `2rem`,

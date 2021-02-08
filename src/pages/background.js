@@ -30,15 +30,13 @@ const Grid2x2 = styled.div`
     margin-bottom: 10%;
     
     > div {
-        display: flex; 
-        flex-basis: calc(50% - 40px);  
+        display: flex;
+        flex-basis: calc(50% - 40px);
         justify-content: center;
         flex-direction: column;
         margin-left: 10%;        
     }
 `;
-
-
 
 const Info1 = styled.div`
     display: flex;
@@ -49,8 +47,13 @@ const Info1 = styled.div`
 `;
 
 const Info2 = styled.div`
+    margin-top: 20%;
     border-left: 2px solid #404040;
     border-bottom: 2px solid #404040;
+
+    > div {
+        margin-top: 5%;
+    }
 `;
 
 const Info3 = styled.div`
@@ -81,49 +84,49 @@ export default class background extends Component {
                     <Grid2x2>
                         <Info1>
                             <div>
-                                    <h5>Languages</h5>
-                                    <ul>
-                                        <li> C# </li>
-                                        <li> JavaScript</li>
-                                        <li> SQL </li>
-                                    </ul>
+                                <h5>Languages</h5>
+                                <ul>
+                                    <li> C# </li>
+                                    <li> JavaScript</li>
+                                    <li> SQL </li>
+                                </ul>
                             </div>
                         </Info1>
                         <Info2>
                             <div>
-                            <h5>Frameworks</h5>
-                                    <ul>
-                                        <li> .NET (Standard / Core) </li>
-                                        <li> ASP.NET </li>
-                                        <li> MVC </li>
-                                        <li> Entity Framework </li>
-                                        <li> React </li>
-                                        <li> Gatsby </li>
-                                        <li> jQuery </li>
-                                    </ul>
+                                <h5>Frameworks</h5>
+                                <ul>
+                                    <li> .NET (Standard / Core) </li>
+                                    <li> ASP.NET </li>
+                                    <li> MVC </li>
+                                    <li> Entity Framework </li>
+                                    <li> React </li>
+                                    <li> Gatsby </li>
+                                    <li> jQuery </li>
+                                </ul>
                             </div>
                         </Info2>
                         <Info3>
                             <div>
-                            <h5> Other Skills </h5>
-                                    <ul>
-                                        <li> Documentation Writing </li>
-                                        <li> Unit Testing </li>
-                                        <li> SCRUM / Agile </li>
-                                    </ul>
+                                <h5> Other Skills </h5>
+                                <ul>
+                                    <li> Documentation Writing </li>
+                                    <li> Unit Testing </li>
+                                    <li> SCRUM / Agile </li>
+                                </ul>
                             </div>
                         </Info3>
                         <Info4 >
                             <div>
                                 <h5>Technologies</h5>
-                                    <ul>
-                                        <li> Azure Management </li>
-                                        <li> IIS </li>
-                                        <li> LINQ </li>
-                                        <li> TFS / GitHub </li>
-                                        <li> CI/CD </li>
-                                        <li> API familiarity: REST / SOAP / GraphQL </li>
-                                    </ul>
+                                <ul>
+                                    <li> Azure Management </li>
+                                    <li> IIS </li>
+                                    <li> LINQ </li>
+                                    <li> TFS / GitHub </li>
+                                    <li> CI/CD </li>
+                                    <li> API familiarity: REST / SOAP / GraphQL </li>
+                                </ul>
                             </div>
                         </Info4>
                         <div>
