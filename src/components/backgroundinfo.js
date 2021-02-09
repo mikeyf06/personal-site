@@ -47,21 +47,40 @@ const Info1 = styled.div`
     border-right: 2px solid rgba(64, 64, 64, .5);
     border-bottom: 2px solid #404040;
     box-shadow: 2px 2px 2px #404040;
+
+    #languagesSection{
+        margin-left: 5%;
+    }
 `;
 
 const Info2 = styled.div`
     border-left: 2px solid #404040;
     border-bottom: 2px solid #404040;
+
+    #frameworkSection {
+        margin-top: 3%;
+        margin-left: 5%;
+    }
 `;
 
 const Info3 = styled.div`
     border-right: 2px solid #404040;
     border-top: 2px solid #404040;
+    
+    #otherSkillsSection {
+        margin-top: 3%;
+        margin-left: 5%;
+    }
 `;
 
 const Info4 = styled.div`
     border-left: 2px solid #404040;
     border-top: 2px solid #404040;
+
+    #technologiesSection{
+        margin-left: 3%;
+        margin-top: 5%;
+    }
 `;
 
 
@@ -82,7 +101,7 @@ const backgroundinfo = ({  }) => {
                 <BackgroundInfo>
                     <Grid2x2>
                         <Info1>
-                            <div>
+                            <div id="languagesSection">
                                     <h5>Languages</h5>
                                     <ul>
                                         <li> C# </li>
@@ -92,7 +111,7 @@ const backgroundinfo = ({  }) => {
                             </div>
                         </Info1>
                         <Info2>
-                            <div>
+                            <div id="frameworkSection">
                             <h5>Frameworks</h5>
                                     <ul>
                                         <li> .NET (Standard / Core) </li>
@@ -106,7 +125,7 @@ const backgroundinfo = ({  }) => {
                             </div>
                         </Info2>
                         <Info3>
-                            <div>
+                            <div id="otherSkillsSection">
                             <h5> Other Skills </h5>
                                     <ul>
                                         <li> Documentation Writing </li>
@@ -116,7 +135,7 @@ const backgroundinfo = ({  }) => {
                             </div>
                         </Info3>
                         <Info4 >
-                            <div>
+                            <div id="technologiesSection">
                                 <h5>Technologies</h5>
                                     <ul>
                                         <li> Azure Management </li>
