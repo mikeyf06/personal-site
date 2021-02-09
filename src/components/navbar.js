@@ -36,7 +36,7 @@ export default class navbar extends Component {
                 <div id="navWrapper">
                     <ul id="nav">
                         <li>
-                            <StyledLink to="#profileSection">Home</StyledLink>
+                            <StyledLink to="/">Home</StyledLink>
                         </li>
                         <li>
                             <StyledLink to="#backgroundSection">Background</StyledLink>
