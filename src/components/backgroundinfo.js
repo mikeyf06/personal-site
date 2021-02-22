@@ -27,19 +27,10 @@ const Grid2x2 = styled.div`
     min-height: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 10%;
-    
-    > div {
-        display: flex; 
-        flex-basis: calc(50% - 40px);  
-        justify-content: center;
-        flex-direction: column;
-        margin-left: 10%;        
-    }
+    margin-left: 10%;
 `;
-
-
 
 const Info1 = styled.div`
     display: flex;
@@ -83,9 +74,6 @@ const Info4 = styled.div`
     }
 `;
 
-
-// export default class profile extends Component {
-//     render() {
 
 const backgroundinfo = ({  }) => {
         return (
@@ -153,8 +141,5 @@ const backgroundinfo = ({  }) => {
             </Background>
         )
         }
-
-//     }
-// }
 
 export default backgroundinfo;

@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 
 const ContactContainer = styled.div`
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 25%;
     margin-left: 20%;
 `;
 

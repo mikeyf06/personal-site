@@ -3,7 +3,10 @@ import Image from "../components/image"
 import styled from "styled-components"
 import Socials from "../components/socials"
 import Layout from "../components/layout"
-//import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin"
+
+
+
+//TODO: Need to almost rebuild this component to be more responsive. 
 
 
 const ProfilePicSection = styled.div `
@@ -48,11 +51,6 @@ const VerticalLine = styled.div`
 `;
 
 
-
-
-// export default class profile extends Component {
-//     render() {
-
 const profile = ({ contacts }) => {
     
         return (
@@ -83,7 +81,5 @@ const profile = ({ contacts }) => {
         )
         }
 
-//     }
-// }
 
 export default profile;
