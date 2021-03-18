@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import Logo from "../images/MF-logo-v1.png"
 import styled from "styled-components"
-import NavBar from "../components/navbar.js"
+import NavBar from "./navbar.js"
 
 console.log(Logo); 
 
@@ -25,8 +25,6 @@ const HeaderWrapper = styled.div`
 
 const HeaderContainer = styled.div`
   margin: 0 auto;
-  max-width: 960px,
-  padding: 1.45rem 1.0875rem;
 `;
 
 const Header = ({ siteTitle, contacts }) => (

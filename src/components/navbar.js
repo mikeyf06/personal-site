@@ -27,9 +27,15 @@ const NavWrapper = styled.div`
 const StyledLink = styled(GLink)`
     color: #404040;
     text-decoration: none;
+    
+
+    :hover{
+        text-decoration: underline;
+        text-underline-offset: 7px;
+    }
 `;
 
-export default class navbar extends Component {
+export default class Navbar extends Component {
     render() {
         return (
             <NavWrapper>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Image from "../components/image"
+import Image from "./image"
 import styled from "styled-components"
-import Socials from "../components/socials"
-import Layout from "../components/layout"
+import Socials from "./socials"
+import Layout from "./layout"
 
 
 const Background = styled.div`
@@ -37,7 +37,6 @@ const Info1 = styled.div`
     flex-direction: column;
     border-right: 2px solid rgba(64, 64, 64, .5);
     border-bottom: 2px solid #404040;
-    box-shadow: 2px 2px 2px #404040;
 
     #languagesSection{
         margin-left: 5%;

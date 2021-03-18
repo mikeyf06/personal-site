@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Image from "../components/image"
+import Image from "./image"
 import styled from "styled-components"
-import Socials from "../components/socials"
-import Layout from "../components/layout"
+import Socials from "./socials"
+import Layout from "./layout"
 
 
 
@@ -19,15 +19,14 @@ const ProfileInfoSection = styled.div`
     margin-top: 5%;
     margin-right: 10%;
 
-    p {
-        font-size: 1vw;
-    }
+    
 `;
 
 const ProfileCard = styled.div`
     display: flex;
     flex-direction: row;
-    height: 450px;
+    min-width:  350px;
+    min-height: 450px;
     padding-top: 1.2rem;
     border: 2px solid #404040;
     border-radius: 10px;
@@ -36,7 +35,8 @@ const ProfileCard = styled.div`
 const ImageContainer = styled.div`
     max-width: 200px;
     margin-bottom: 1.45rem;
-    margin-left: 4.5rem;
+    /* margin-left: 4.5rem; */
+    margin-left: 5%;
     margin-top: 2rem;
 
     .gatsby-image-wrapper {
@@ -44,11 +44,6 @@ const ImageContainer = styled.div`
     }
 `;
 
-const VerticalLine = styled.div`
-    border-left: 2px solid #404040;
-    height: 90%;
-    margin-left: 4.5rem;
-`;
 
 
 const profile = ({ contacts }) => {
@@ -60,7 +55,7 @@ const profile = ({ contacts }) => {
                     <Image />
                 </ImageContainer>
                 
-                <VerticalLine />
+                
 
                 <ProfileInfoSection>
                     <h4>Father, Husband and Software Developer</h4>

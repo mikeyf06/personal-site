@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Image from "../components/image"
+import Image from "./image"
 import styled from "styled-components"
-import Socials from "../components/socials"
-import Layout from "../components/layout"
+import Socials from "./socials"
+import Layout from "./layout"
 
 const ContactContainer = styled.div`
     justify-content: center;
