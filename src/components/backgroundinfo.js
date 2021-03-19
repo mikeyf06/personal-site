@@ -5,6 +5,8 @@ import Socials from "./socials";
 import Layout from "./layout";
 
 
+//TODO: Adjust the font size for the below sections a little.
+
 const Background = styled.div`
     margin-top: 10%;
     margin-left: 1rem;
