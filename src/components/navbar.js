@@ -17,7 +17,7 @@ const NavWrapper = styled.div`
     #navWrapper{
         display:inline;
         padding:0;
-        margin:0;
+        margin-bottom: 3rem;
         padding:35px 20px 4px 10px;
         float:right; 
     }

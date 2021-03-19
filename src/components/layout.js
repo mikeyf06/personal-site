@@ -16,6 +16,9 @@
  const MainWrapper = styled.div`
    margin: 0 auto;
    max-width: 70%;
+   min-width: 250px;
+   /* max-width: 75rem;
+   min-width: 2rem; */
    height: 80%;
    padding: 0 1.0875rem 1.45rem;
  `;

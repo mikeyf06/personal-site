@@ -14,18 +14,18 @@ const ProfilePicSection = styled.div `
 `;
 
 const ProfileInfoSection = styled.div`
+    order: 2;
     max-width: 50%;
-    margin-left: 10%;
+    margin-left: 4rem;
     margin-top: 5%;
-    margin-right: 10%;
-
-    
+    /* margin-right: 10%; */
 `;
 
 const ProfileCard = styled.div`
     display: flex;
-    flex-direction: row;
-    min-width:  350px;
+    flex-direction: row ltr;
+    flex-flow: row wrap;
+    /* min-width:  350px; */
     min-height: 450px;
     padding-top: 1.2rem;
     border: 2px solid #404040;
@@ -33,10 +33,11 @@ const ProfileCard = styled.div`
 `;
 
 const ImageContainer = styled.div`
+    order: 1;
     max-width: 200px;
     margin-bottom: 1.45rem;
-    /* margin-left: 4.5rem; */
-    margin-left: 5%;
+    margin-left: 3rem;
+    /* margin-left: 5%; */
     margin-top: 2rem;
 
     .gatsby-image-wrapper {

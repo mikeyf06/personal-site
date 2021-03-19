@@ -7,7 +7,7 @@ import Layout from "./layout";
 
 const Background = styled.div`
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 1rem;
     display: flex;
     flex-direction: row;
 `;

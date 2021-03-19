@@ -7,7 +7,7 @@ import Layout from "./layout";
 const ContactContainer = styled.div`
     justify-content: center;
     margin-top: 4%;
-    margin-left: 20%;
+    margin-left: 3rem;
 `;
 
 const contactform = ({  }) => {
