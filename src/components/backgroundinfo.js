@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import Image from "./image"
-import styled from "styled-components"
-import Socials from "./socials"
-import Layout from "./layout"
+import React, { Component } from 'react';
+import Image from "./image";
+import styled from "styled-components";
+import Socials from "./socials";
+import Layout from "./layout";
 
 
 const Background = styled.div`
@@ -18,7 +18,7 @@ const BackgroundDescription = styled.div`
 `;
 
 const BackgroundInfo = styled.div`
-    max-height: 700px;
+    max-height: 100%;
     margin-bottom: 10%;
     position: relative;
 `;
