@@ -1,12 +1,12 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-import Profile from "../components/profile"
-import BackgroundInfo from "../components/backgroundinfo"
-import ContactForm from "../components/contactform"
+import Layout from "../components/layout";
+import Image from "../components/image";
+import SEO from "../components/seo";
+import Profile from "../components/profile";
+import BackgroundInfo from "../components/backgroundinfo";
+import ContactForm from "../components/contactform";
 
 const IndexPage = ({ contacts }) => {
   return (

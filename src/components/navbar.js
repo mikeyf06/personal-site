@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
-//GLink refers to Gatsby-Link
-import { Link as GLink } from "gatsby"
-import styled from "styled-components"
+import React, { Component } from 'react';
+import { Link as GLink } from "gatsby";
+import styled from "styled-components";
 
 const NavWrapper = styled.div`
     #nav {

@@ -1,9 +1,9 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import Logo from "../images/MF-logo-v1.png"
-import styled from "styled-components"
-import NavBar from "./navbar.js"
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
+import Logo from "../images/MF-logo-v1.png";
+import styled from "styled-components";
+import NavBar from "./navbar.js";
 
 console.log(Logo); 
 

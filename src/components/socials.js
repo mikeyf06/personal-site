@@ -1,15 +1,14 @@
-import React, { Component } from 'react'
-import styled from "styled-components"
+import React, { Component } from 'react';
+import styled from "styled-components";
 
 //  TO DO: Get this importing more efficiently, getting weird errors when I try to
 //  import them all at once for some reason.
 
-import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin"
-import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
-import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter"
-import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram"
-import { useStaticQuery, graphql } from "gatsby"
-
+import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
+import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
+import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
+import { useStaticQuery, graphql } from "gatsby";
 
 const SocialsDiv = styled.div`
     display: flex;
