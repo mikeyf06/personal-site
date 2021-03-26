@@ -7,6 +7,7 @@ import SEO from "../components/seo";
 import Profile from "../components/profile";
 import BackgroundInfo from "../components/backgroundinfo";
 import ContactForm from "../components/contactform";
+import BackToTop from '../components/BackToTop';
 
 const IndexPage = ({ contacts }) => {
   return (
@@ -30,6 +31,7 @@ const IndexPage = ({ contacts }) => {
       {` `}
       <a href="/">Mike Flores</a>
     </footer> */}
+    <BackToTop/>
   </Layout>
   )
     }
