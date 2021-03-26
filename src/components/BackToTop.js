@@ -5,8 +5,8 @@ const BackToTopLink = styled.a`
     border-radius: 25px;
     position: fixed;
     height: 45px;
-    bottom: 1%;
-    right: 1%;
+    bottom: 5%;
+    right: 3%;
     background: var(--pink);
     color: white;
     background: rgba(0, 0, 0, 0.5);
@@ -20,6 +20,10 @@ const BackToTopLink = styled.a`
         `
         opacity: 1;
     `}
+    @media screen and (max-width: 500px) {
+        bottom: 1%;
+        right: 1%;
+    }
 `;
 
 function useScrollPosition() {
