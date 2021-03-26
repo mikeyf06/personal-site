@@ -7,6 +7,7 @@ import Layout from "./layout";
 
 //TODO: Adjust the font size for the below sections a little.
 
+
 const Background = styled.div`
     margin-top: 10%;
     margin-left: 1rem;
@@ -79,14 +80,14 @@ const Info4 = styled.div`
 const backgroundinfo = ({  }) => {
         return (
             <Background id="backgroundSection">
-            <BackgroundDescription>
-                <h4>My Background</h4>
-                <p>
-                    I have been developing software professionally since 2014. During that time I've primarily been a
-                    web developer. I've worked at 3 separate companies, 1 corporate company and 2 startups. At these 3 companies
-                    I've developed and obtained many different skills and traits as a developer and even a business mind.
-                </p>
-            </BackgroundDescription>
+                <BackgroundDescription>
+                    <h4>My Background</h4>
+                    <p>
+                        I have been developing software professionally since 2014. During that time I've primarily been a
+                        web developer. I've worked at 3 separate companies, 1 corporate company and 2 startups. At these 3 companies
+                        I've developed and obtained many different skills and traits as a developer and even a business mind.
+                    </p>
+                </BackgroundDescription>
                 <BackgroundInfo>
                     <Grid2x2>
                         <Info1>
