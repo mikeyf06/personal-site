@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "michael-flores-site",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Personal website built by Mike Flores.",
+  "version": "1.0.0",
+  "author": "Michael Flores - michaelflores@hey.com",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "gatsby": "^2.26.1",
@@ -40,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/mikethedevdad/personal-site"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/mikethedevdad/personal-site/issues"
   }
 }

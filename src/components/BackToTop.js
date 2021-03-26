@@ -9,7 +9,7 @@ const BackToTopLink = styled.a`
     right: 3%;
     background: var(--pink);
     color: white;
-    background: rgba(0, 0, 0, 0.5);
+    background: #535851;
     cursor: pointer;
     padding: 0.5rem 1rem 1rem 1rem;
     transition: opacity 0.2s;
@@ -19,7 +19,7 @@ const BackToTopLink = styled.a`
         props.percent > 0.25 &&
         `
         opacity: 1;
-    `}
+    `}    
     @media screen and (max-width: 500px) {
         bottom: 1%;
         right: 1%;
