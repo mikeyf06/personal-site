@@ -1,9 +1,8 @@
 import React, {Component}  from "react";
-import { Link } from "gatsby";
-
 import Layout from "../components/layout";
-import Image from "../components/image";
 import SEO from "../components/seo";
+
+// *Not being used right now. May use this page later if I decide to restructure the site again.
 
 export default class contact extends Component {
     render() {

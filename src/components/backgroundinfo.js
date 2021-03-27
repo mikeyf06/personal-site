@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import Image from "./image";
 import styled from "styled-components";
-import Socials from "./socials";
-import Layout from "./layout";
-
 
 //TODO: Adjust the font size for the below sections a little.
 
-
 const Background = styled.div`
     margin-top: 10%;
-    margin-left: 1rem;
+    margin-left: 6rem; 
     display: flex;
     flex-direction: row;
+
+    @media screen and (max-width: 600px) {
+        margin-left: 0;
+    }
 `;
 
 const BackgroundDescription = styled.div`

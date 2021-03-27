@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Image from "./image";
 import styled from "styled-components";
-import Socials from "./socials";
-import Layout from "./layout";
 
 const ContactContainer = styled.div`
     justify-content: center;
     /* margin-top: 4%; */
-    margin-left: 3rem;
+    margin-left: 30%;
+    @media screen and (max-width: 600px) {
+        margin-left: 0;
+    }
 `;
 
 const contactform = ({  }) => {

@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Image from "./image";
 import styled from "styled-components";
 import Socials from "./socials";
-import Layout from "./layout";
-
 
 
 //TODO: Need to almost rebuild this component to be more responsive. 

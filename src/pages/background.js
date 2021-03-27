@@ -7,6 +7,9 @@ import SEO from "../components/seo";
 import styled from "styled-components";
 
 
+// *Not being used right now. May use this page later if I decide to restructure the site again.
+
+
 const Background = styled.div`
     display: flex;
     flex-direction: row;
