@@ -16,6 +16,10 @@ const SocialsDiv = styled.div`
     a{
         padding: 2px 10px 2px 2px;
     }
+
+    @media screen and (max-width: 600px) {
+        margin-bottom: .5rem;
+    }
 `;
 
 const IconLink = styled.a`

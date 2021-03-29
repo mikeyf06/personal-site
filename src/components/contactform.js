@@ -2,9 +2,9 @@ import React from 'react';
 import styled from "styled-components";
 
 const ContactContainer = styled.div`
-    justify-content: center;
     /* margin-top: 4%; */
-    margin-left: 30%;
+    margin-left: 25%;
+    justify-content: center;
     @media screen and (max-width: 600px) {
         margin-left: 0;
     }
