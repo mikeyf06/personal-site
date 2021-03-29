@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Image from "./image";
 import styled from "styled-components";
 import Socials from "./socials";
 
 
+
 //TODO: Need to almost rebuild this component to be more responsive. 
 
 
-const ProfilePicSection = styled.div `
-    
-`;
 
 const ProfileInfoSection = styled.div`
     order: 2;

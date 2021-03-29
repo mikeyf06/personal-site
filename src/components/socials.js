@@ -23,7 +23,7 @@ const IconLink = styled.a`
 `;
 
 
-const socials = ({  }) => {
+const socials = () => {
 
         return (
             <SocialsDiv>

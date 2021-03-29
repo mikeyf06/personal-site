@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from "styled-components";
 
 const ContactContainer = styled.div`
@@ -10,7 +10,7 @@ const ContactContainer = styled.div`
     }
 `;
 
-const contactform = ({  }) => {
+const contactform = () => {
     return (
         <ContactContainer id="contactSection">
             <h1>Contact</h1>

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from "styled-components";
 
 //TODO: Adjust the font size for the below sections a little.
@@ -76,7 +76,7 @@ const Info4 = styled.div`
 `;
 
 
-const backgroundinfo = ({  }) => {
+const backgroundinfo = () => {
         return (
             <Background id="backgroundSection">
                 <BackgroundDescription>
