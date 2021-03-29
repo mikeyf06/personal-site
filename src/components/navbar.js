@@ -7,6 +7,7 @@ const NavWrapper = styled.div`
         margin:0;
         padding:0;
     }
+
     #nav li {
         display:inline;
         padding:0;
@@ -14,7 +15,8 @@ const NavWrapper = styled.div`
         padding:0 20px 20px 20px;
         border-bottom: 2px solid #404040
     }
-    #navWrapper{
+    
+    #navWrapper {
         display:inline;
         padding:0;
         margin-bottom: 3rem;
@@ -27,7 +29,6 @@ const StyledLink = styled(GLink)`
     color: #404040;
     text-decoration: none;
     
-
     :hover{
         text-decoration: underline;
         text-underline-offset: 7px;

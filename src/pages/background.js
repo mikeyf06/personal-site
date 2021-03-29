@@ -4,7 +4,9 @@ import SEO from "../components/seo";
 import styled from "styled-components";
 
 
+
 // *Not being used right now. May use this page later if I decide to restructure the site again.
+
 
 
 const Background = styled.div`
@@ -36,7 +38,6 @@ const Grid2x2 = styled.div`
         flex-direction: column;
         margin-left: 10%;        
     }
-
 `;
 
 const Info1 = styled.div`
