@@ -10,6 +10,7 @@ const IndexPage = ({ contacts }) => {
   return (
   <Layout>
     <SEO title="Home" />
+    
     {
     /* 
     Here I want to add some type of animation for the title to load in, and then whatever components 
@@ -34,3 +35,4 @@ const IndexPage = ({ contacts }) => {
     }
 
 export default IndexPage
+
