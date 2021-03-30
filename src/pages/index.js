@@ -5,6 +5,7 @@ import Profile from "../components/profile";
 import BackgroundInfo from "../components/backgroundinfo";
 import ContactForm from "../components/contactform";
 import BackToTop from '../components/BackToTop';
+import Footer from '../components/Footer';
 
 const IndexPage = ({ contacts }) => {
   return (
@@ -20,15 +21,7 @@ const IndexPage = ({ contacts }) => {
     <Profile contacts={contacts} />
     <BackgroundInfo />
     <ContactForm />
-    {/* <footer
-      style={{
-        marginTop: `2rem`,
-      }}
-    >
-      © {new Date().getFullYear()}, Built by
-      {` `}
-      <a href="/">Mike Flores</a>
-    </footer> */}
+    <Footer></Footer>
     <BackToTop/>
   </Layout>
   )

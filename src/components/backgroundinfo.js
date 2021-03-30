@@ -7,7 +7,8 @@ const Background = styled.div`
     margin-top: 10%;
     margin-left: 6rem; 
     display: flex;
-    flex-direction: row;
+    flex-direction: row ltr;
+    flex-flow: row wrap;
 
     @media screen and (max-width: 600px) {
         margin-left: 0;
@@ -86,6 +87,12 @@ const backgroundinfo = () => {
                         web developer. I've worked at 3 separate companies, 1 corporate company and 2 startups. At these 3 companies
                         I've developed and obtained many different skills and traits as a developer and even a business mind.
                     </p>
+                    <hr />
+                    <p>
+                        Besides primarily working as a Web Developer, I've also dabbled in Mobile Development. I've worked in Xamarin Forms
+                        in a professional setting, and I have also experimented with SwiftUI development in my personal time. Mobile Development
+                        does interest me quite a bit, I just haven't had many opportunities to develop in it professionally. 
+                    </p>
                 </BackgroundDescription>
                 <BackgroundInfo>
                     <Grid2x2>
@@ -96,6 +103,7 @@ const backgroundinfo = () => {
                                         <li> C# </li>
                                         <li> JavaScript</li>
                                         <li> SQL </li>
+                                        <li> TypeScript </li>
                                     </ul>
                             </div>
                         </Info1>
