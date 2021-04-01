@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 function goHome() {
     if(typeof window !== 'undefined') {
         window.location = '/';
+        window.scrollTo(0,0);
     }
 }
 
