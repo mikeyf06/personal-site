@@ -12,7 +12,8 @@ export default function ThankYou() {
         <Layout>
         <div>
             <h3>Thanks for Contacting!</h3>
-            <p>I'll try to reach back out as soon as I can.</p>
+            <p>I'll try to reach back out as soon as I can.</p> 
+            <p>Until then, feel free to <a href="/">return to the site.</a></p>
         </div>
         {/* <button type="button" onClick={goHome()}>Back</button> */}
 
