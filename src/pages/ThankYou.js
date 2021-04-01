@@ -1,7 +1,8 @@
 import React from 'react';
 import Layout from '../components/layout';
 
-function goHome() {
+function goHome(e) {
+    e.PreventDefault();
     if(typeof window !== 'undefined') {
         window.location = '/';
     }

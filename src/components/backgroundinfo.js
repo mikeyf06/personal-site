@@ -140,6 +140,7 @@ const backgroundinfo = () => {
                                         <li> LINQ </li>
                                         <li> TFS / GitHub </li>
                                         <li> CI/CD </li>
+                                        <li> Node.js </li>
                                         <li> API familiarity: REST / SOAP / GraphQL </li>
                                     </ul>
                             </div>
