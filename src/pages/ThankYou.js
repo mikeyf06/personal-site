@@ -2,7 +2,9 @@ import React from 'react';
 import Layout from '../components/layout';
 
 function goHome() {
-    window.location = '/';
+    if(typeof window !== 'undefined') {
+        window.location = '/';
+    }
 }
 
 export default function ThankYou() {
