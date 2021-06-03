@@ -32,7 +32,7 @@ const contactform = () => {
         <ContactContainer id="contactSection" name="Personal Site Form" method="POST" data-netlify="true" action="/ThankYou">
         <ContactDescription>
           <h3>Contact Me!</h3>
-          <p>Looking for some work to be done? Are you hiring? Tell me below!</p>
+          <p>Looking for some work to be done? Wanna chat? Tell me below!</p>
         </ContactDescription>
         <ContactFields>
           <input type="hidden" name="form-name" value="Personal Site Form" />
