@@ -90,7 +90,7 @@ const backgroundinfo = () => (
       <h4>My Background</h4>
       <p>
         I have been developing software professionally since 2014. During that time I've primarily been a web developer.
-        I've worked at 4 separate companies; 1 corporate company, 2 startups and I'm currently working at for a web agency. At these 3 companies I've developed and
+        I've worked at 4 separate companies; 1 corporate company, 2 startups and I'm currently working at for a web agency. At these 4 companies I've developed and
         obtained many different skills and traits as a developer and even a business mind.
       </p>
       <hr />

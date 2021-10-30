@@ -51,11 +51,11 @@ const profile = ({ contacts }) => {
             <ProfileInfoSection>
                 <h4>Father, Husband and Software Developer</h4>
                 <p>
-                    Based out of Chicago. I'm 28 and I'm a guy with many hobbies. I love spending time with my family,
+                    Based out of Chicago. I'm 29 and I'm a guy with many hobbies. I love spending time with my family,
                     fishing, music, sports, gaming and a bunch of other things that I can't think of right now.
                 </p>
                 <p>
-                    Feel free to check out my socials below. Sometimes I tweet things, or post cool tech photos on
+                    Feel free to check out my socials below. Sometimes I tweet things, or post cool photos on
                     Instagram. Currently, I only have this project displayed on GitHub; and well, LinkedIn is Linked in.
                 </p>
                                     

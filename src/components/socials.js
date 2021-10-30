@@ -51,7 +51,6 @@ const socials = () => {
                         <FaTwitter size={26} style={{color: "skyblue"}}/>
                     </span>
                 </IconLink>
-            
             </SocialsDiv>
         )};
 
