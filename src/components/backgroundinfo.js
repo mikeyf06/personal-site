@@ -68,7 +68,7 @@ const Info3 = styled.div`
   border-right: 2px solid #404040;
   border-top: 2px solid #404040;
 
-  #otherSkillsSection {
+  #technologiesSection {
     margin-top: 3%;
     margin-left: 5%;
   }
@@ -78,7 +78,7 @@ const Info4 = styled.div`
   border-left: 2px solid #404040;
   border-top: 2px solid #404040;
 
-  #technologiesSection {
+  #otherSkillsSection {
     margin-left: 3%;
     margin-top: 5%;
   }
@@ -129,18 +129,8 @@ const backgroundinfo = () => (
           </div>
         </Info2>
         <Info3>
-          <div id="otherSkillsSection">
-            <h5> Other Skills </h5>
-            <ul>
-              <li> Documentation Writing </li>
-              <li> Unit Testing </li>
-              <li> SCRUM / Agile </li>
-            </ul>
-          </div>
-        </Info3>
-        <Info4>
           <div id="technologiesSection">
-            <h5>Technologies</h5>
+          <h5>Technologies</h5>
             <ul>
               <li> Azure Management </li>
               <li> IIS </li>
@@ -149,6 +139,16 @@ const backgroundinfo = () => (
               <li> CI/CD </li>
               <li> Node.js </li>
               <li> API familiarity: REST / SOAP / GraphQL </li>
+            </ul>
+          </div>
+        </Info3>
+        <Info4>
+          <div id="otherSkillsSection">
+            <h5> Other Skills </h5>
+            <ul>
+              <li> Documentation Writing </li>
+              <li> Unit Testing </li>
+              <li> SCRUM / Agile </li>
             </ul>
           </div>
         </Info4>
