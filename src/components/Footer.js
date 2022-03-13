@@ -11,7 +11,7 @@ const FooterContainer = styled.footer`
 export default function Footer() {
     return (
         <FooterContainer>
-            © {new Date().getFullYear()}, Built by {` `} <a href="#">Mike Flores</a> with GatsbyJS.
+            © {new Date().getFullYear()}, Built by {` `} <a href="#profileSection">Mike Flores</a> with GatsbyJS.
         </FooterContainer>
     )
 }

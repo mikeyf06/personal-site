@@ -1,26 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
+import Accordion from './Accordion';
 
 // TODO: Adjust the font size for the below sections a little.
 
 const Background = styled.div`
-  margin-top: 10%;
+  margin-top: 12rem;
   margin-left: 6rem;
   display: flex;
   flex-direction: row ltr;
   flex-flow: row wrap;
+  margin-bottom: 8rem;
 
   @media screen and (max-width: 600px) {
-    margin-left: 0;
+    margin: 4rem 0 0 0;
   }
 `;
 
 const BackgroundDescription = styled.div`
-  margin-top: 25%;
-  width: 50%;
-  @media screen and (max-width: 600px) {
-    margin-left: 3rem;
-  }
+  width: 24rem;
 `;
 
 const BackgroundInfo = styled.div`
@@ -43,46 +41,33 @@ const Grid2x2 = styled.div`
   margin-left: 10%;
 `;
 
-const Info1 = styled.div`
-  display: flex;
-  flex-direction: column;
-  border-right: 2px solid rgba(64, 64, 64, 0.5);
-  border-bottom: 2px solid #404040;
-
-  #languagesSection {
-    margin-left: 5%;
-  }
+const AccordionWrapper = styled.div`
+  width: 22rem;
+  min-height: 100%;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  
+  
 `;
 
-const Info2 = styled.div`
-  border-left: 2px solid #404040;
-  border-bottom: 2px solid #404040;
-
-  #frameworkSection {
-    margin-top: 3%;
-    margin-left: 5%;
+const accordionData = [
+  {
+    title: 'Languages',
+    content: `C#, VB.NET, JavaScript, SQl, TypeScript, + many more`
+  },
+  {
+    title: 'Frameworks',
+    content: `.NET (Standard / Core), ASP.NET, MVC, WebForms, Entity Framework, LINQ, React, Gatsby, jQuery.`
+  },
+  {
+    title: 'Technologies',
+    content: `Azure, AWS, IIS, TFS / GitHub, CI CD, Unit Testing, Automated Testing, Node.js, APIs (REST, SOAP, GraphQL).`
+  },
+  {
+    title: 'Other Skills',
+    content: `Documentation Writing, Team Management, Scope Analysis, Planning, SCRUM / Agile management.`
   }
-`;
-
-const Info3 = styled.div`
-  border-right: 2px solid #404040;
-  border-top: 2px solid #404040;
-
-  #technologiesSection {
-    margin-top: 3%;
-    margin-left: 5%;
-  }
-`;
-
-const Info4 = styled.div`
-  border-left: 2px solid #404040;
-  border-top: 2px solid #404040;
-
-  #otherSkillsSection {
-    margin-left: 3%;
-    margin-top: 5%;
-  }
-`;
+];
 
 const backgroundinfo = () => (
   <Background id="backgroundSection">
@@ -101,60 +86,11 @@ const backgroundinfo = () => (
         professionally.
       </p>
     </BackgroundDescription>
-    <BackgroundInfo>
-      <Grid2x2>
-        <Info1>
-          <div id="languagesSection">
-            <h5>Languages</h5>
-            <ul>
-              <li> C# </li>
-              <li> JavaScript</li>
-              <li> SQL </li>
-              <li> TypeScript </li>
-            </ul>
-          </div>
-        </Info1>
-        <Info2>
-          <div id="frameworkSection">
-            <h5>Frameworks</h5>
-            <ul>
-              <li> .NET (Standard / Core) </li>
-              <li> ASP.NET </li>
-              <li> MVC </li>
-              <li> Entity Framework </li>
-              <li> React </li>
-              <li> Gatsby </li>
-              <li> jQuery </li>
-            </ul>
-          </div>
-        </Info2>
-        <Info3>
-          <div id="technologiesSection">
-          <h5>Technologies</h5>
-            <ul>
-              <li> Azure Management </li>
-              <li> IIS </li>
-              <li> LINQ </li>
-              <li> TFS / GitHub </li>
-              <li> CI/CD </li>
-              <li> Node.js </li>
-              <li> API familiarity: REST / SOAP / GraphQL </li>
-            </ul>
-          </div>
-        </Info3>
-        <Info4>
-          <div id="otherSkillsSection">
-            <h5> Other Skills </h5>
-            <ul>
-              <li> Documentation Writing </li>
-              <li> Unit Testing </li>
-              <li> SCRUM / Agile </li>
-            </ul>
-          </div>
-        </Info4>
-        {/* Add some more stuff here maybe */}
-      </Grid2x2>
-    </BackgroundInfo>
+    <AccordionWrapper className="accordion">
+        {accordionData.map(({ title, content }) => (
+          <Accordion title={title} content={content} />
+        ))}
+      </AccordionWrapper>
   </Background>
 );
 

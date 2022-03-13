@@ -2,12 +2,14 @@ import React from 'react';
 import styled from "styled-components";
 
 const ContactContainer = styled.form`
-    margin-left: 2%;
+    margin-left: 2rem;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    margin-top: 12rem;
     @media screen and (max-width: 600px) {
-        margin-left: 0;
+        //margin-left: 0;
+        margin: 2rem 0 0 0;
     }
 `;
 
@@ -53,19 +55,5 @@ const contactform = () => {
         </>
     )
 };
-
-
-// This is what we'd need to revert away from form.
-// const contactform = () => {
-//     return (
-//         <ContactContainer id="contactSection">
-//             <h1>Contact</h1>
-//             <p>
-//                 Form coming soon, BUT, feel free to email at <a href="mailto:michaelflores@hey.com">michaelflores@hey.com</a> until then.
-//             </p>
-//         </ContactContainer>
-//     )
-// };
-
 
 export default contactform;

@@ -11,9 +11,12 @@ import Socials from "./socials";
 
 const ProfileInfoSection = styled.div`
     order: 2;
-    max-width: 50%;
+    width: 25rem;
     margin-left: 4rem;
-    margin-top: 5%;
+    margin-top: 5rem;
+    @media screen and (max-width: 600px) {
+        margin: 2rem 0 0 0;
+    }
 `;
 
 const ProfileCard = styled.div`
@@ -21,17 +24,25 @@ const ProfileCard = styled.div`
     flex-direction: row ltr;
     flex-flow: row wrap;
     min-height: 450px;
-    padding-top: 1.2rem;
+    /* padding-top: 1.2rem;
+    padding-bottom: 2rem; */
     border: 2px solid #404040;
     border-radius: 10px;
+    padding: 1.2rem 0 2rem 3rem;
+    @media screen and (max-width: 600px) {
+        padding: 0 6rem 0 0;
+        border: 0;
+        width: 25rem;
+        border-radius: 10px;
+    }
 `;
 
 const ImageContainer = styled.div`
     order: 1;
-    max-width: 200px;
+    width: 10rem;
     margin-bottom: 1.45rem;
     margin-left: 3rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 
     .gatsby-image-wrapper {
         border-radius: 25px;
@@ -43,8 +54,9 @@ const ImageContainer = styled.div`
 const profile = ({ contacts }) => {
     return (
         <ProfileCard id="profileSection">
-            <ImageContainer>
-                <h2 style={{paddingLeft: `10px`}}>Hi, I'm Mike.</h2>
+            <ImageContainer style={{paddingLeft: `10px`}}>
+                <h3 style={{paddingLeft: `10px`}}>Mike Flores</h3>
+                <h6 style={{ paddingLeft: `10px` }}>Team Lead, <br/>Senior Web Developer</h6>
                 <Image />
             </ImageContainer>
             
