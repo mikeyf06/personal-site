@@ -21,33 +21,11 @@ const BackgroundDescription = styled.div`
   width: 24rem;
 `;
 
-const BackgroundInfo = styled.div`
-  max-height: 100%;
-  margin-bottom: 10%;
-  position: relative;
-
-  @media screen and (max-width: 600px) {
-    margin-top: 3rem;
-    margin-left: 0;
-  }
-`;
-
-const Grid2x2 = styled.div`
-  min-height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-bottom: 10%;
-  margin-left: 10%;
-`;
-
 const AccordionWrapper = styled.div`
   width: 22rem;
   min-height: 100%;
   margin: 2rem auto;
   flex-wrap: wrap;
-  
-  
 `;
 
 const accordionData = [
