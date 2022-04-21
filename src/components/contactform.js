@@ -28,13 +28,17 @@ const ContactFields = styled.div`
     }
 `;
 
+const BotCheck = styled.p`
+  display:none;
+`;
+
 const contactform = () => {
     return (
       <>
-        <ContactContainer id="contactSection" name="Personal Site Form" method="POST" data-netlify="true" action="/ThankYou">
+        <ContactContainer id="contactSection" name="Personal Site Form" method="POST" data-netlify="true" action="/ThankYou" netlify-honeypot="bot-check">
         <ContactDescription>
           <h3>Contact Me!</h3>
-          <p>Looking for some work to be done? Wanna chat? Tell me below!</p>
+          <p>Looking for some work to be done? Wanna chat? Let me know below!</p>
         </ContactDescription>
         <ContactFields>
           <input type="hidden" name="form-name" value="Personal Site Form" />
@@ -52,6 +56,9 @@ const contactform = () => {
               </p>
           </ContactFields>
         </ContactContainer>
+        <BotCheck>
+          <label>Are you a real person?</label><input name="bot-check" type="checkbox"></input>
+        </BotCheck>
         </>
     )
 };
