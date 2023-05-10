@@ -43,13 +43,13 @@ const contactform = () => {
         <ContactFields>
           <input type="hidden" name="form-name" value="Personal Site Form" />
               <p>
-                <label>Your Name: </label>  <br/> <input type="text" name="name" required />
+                <label for="iName">Your Name: </label>  <br/> <input id="iName" type="text" name="name" required />
               </p>
               <p>
-                <label>Your Email: </label><br /><input type="email" name="email" required />
+                <label for="iEmail">Your Email: </label><br /><input id="iEmail" type="email" name="email" required />
               </p>
               <p>
-                <label>Message: </label><br /><textarea name="message" required></textarea>
+                <label for="iMessage">Message: </label><br /><textarea id="iMessage" name="message" required></textarea>
               </p>
               <p>
                 <button type="submit">Submit</button>

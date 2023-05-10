@@ -5,7 +5,6 @@ import Logo from "../images/MF-logo-v1.png";
 import styled from "styled-components";
 import NavBar from "./navbar.js";
 
-console.log(Logo); 
 
 const HeaderWrapper = styled.div`
   background: #F7F7F7;

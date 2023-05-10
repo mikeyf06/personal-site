@@ -1,7 +1,7 @@
 
 /*
 
-If you're reading this. I am NOT a designer. I tried my best with this site. But I know there are plenty of 
+If you're reading this. I am NOT a designer. I tried my best with this site. But I know there are plenty of things
 that I probably could have done better. I probably will continue to iterate and improve this site. I just wanted to
 get something out. But yeah, I'm not a web designer. I know enough css and all this stuff to get by. So hopefully
 this has come out decent enough for you to even inspect the project and get here and be like 'why didn't he do
@@ -612,10 +612,5 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
-}
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
 }
 

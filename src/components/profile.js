@@ -4,8 +4,6 @@ import styled from "styled-components";
 import Socials from "./socials";
 
 
-//TODO: Need to almost rebuild this component to be more responsive. 
-
 
 const ProfileCard = styled.div`
     display: flex;
