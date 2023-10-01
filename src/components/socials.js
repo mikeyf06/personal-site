@@ -31,7 +31,7 @@ const socials = () => {
 
         return (
             <SocialsDiv>
-                <IconLink href="https://www.instagram.com/mikethedevdad/" target="_blank">
+                <IconLink href="https://www.instagram.com/mikebytheday/" target="_blank">
                     <span title="Instagram">
                         <FaInstagram size={26} style={{color: "fuchsia"}}/>
                     </span>
@@ -46,7 +46,7 @@ const socials = () => {
                         <FaLinkedin size={26} style={{ color: "coolblue" }}/>
                     </span>
                 </IconLink> 
-                <IconLink href="https://twitter.com/mikethedevdad" target="_blank">
+                <IconLink href="https://twitter.com/mikebytheday" target="_blank">
                     <span title="Twitter">
                         <FaTwitter size={26} style={{color: "skyblue"}}/>
                     </span>
