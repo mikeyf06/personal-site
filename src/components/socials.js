@@ -36,7 +36,7 @@ const socials = () => {
                         <FaInstagram size={26} style={{color: "fuchsia"}}/>
                     </span>
                 </IconLink>
-                <IconLink href="https://github.com/mikethedevdad" target="_blank">
+                <IconLink href="https://github.com/mikeyf06" target="_blank">
                     <span title="GitHub">
                         <FaGithub size={26} style={{color: "gray"}}/>
                     </span>
