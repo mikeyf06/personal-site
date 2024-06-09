@@ -2,6 +2,7 @@ import React from 'react';
 import Image from "./image";
 import styled from "styled-components";
 import Socials from "./socials";
+import YearsFromDate from "../components/YearsFromDate";
 
 
 
@@ -54,13 +55,10 @@ const ProfileInfoSection = styled.div`
         width: 100%;
     }
 `;
+const profile = ({ contacts  }) => {
+    const birthDate = '1992-05-04';
+    const careerStartDates = '2014-08-01';
 
-
-
-
-
-
-const profile = ({ contacts }) => {
     return (
         <ProfileCard id="profileSection">
             <ImageContainer>
@@ -72,7 +70,10 @@ const profile = ({ contacts }) => {
             <ProfileInfoSection>
                 <h4>Father, Husband and Software Developer</h4>
                 <p>
-                    Based out of Chicago. I'm 29 and I'm a guy with many hobbies. I love spending time with my family,
+                    Based out of Chicago, developing various kinds of software for over <YearsFromDate givenDate={careerStartDates}>s</YearsFromDate>. 
+                </p>
+                <p>
+                    I'm <YearsFromDate givenDate={birthDate} /> old and I'm a guy with many hobbies. I love spending time with my family, golf
                     fishing, music, sports, gaming and a bunch of other things that I can't think of right now.
                 </p>
                 <p>
