@@ -73,8 +73,8 @@ const profile = ({ contacts  }) => {
                     Based out of Chicago, developing various kinds of software for over <YearsFromDate givenDate={careerStartDates}>s</YearsFromDate>. 
                 </p>
                 <p>
-                    I'm <YearsFromDate givenDate={birthDate} /> old and I'm a guy with many hobbies. I love spending time with my family, golf
-                    fishing, music, sports, gaming and a bunch of other things that I can't think of right now.
+                    I'm <YearsFromDate givenDate={birthDate} /> old and I'm a guy with many hobbies. I love spending time with my family, golf,
+                    music, sports, gaming and a bunch of other things that I can't think of right now.
                 </p>
                 <p>
                     Feel free to check out my socials below. Sometimes I tweet things, or post cool photos on
