@@ -7,9 +7,9 @@ module.exports = {
         bio: `Web Dev from Chicago`,
         contacts: {
             linkedin: `https://www.linkedin.com/in/michael-flores-b7a69472/`,
-            github: `https://github.com/mikethedevdad`,
-            twitter: `https://twitter.com/mikethedevdad`,
-            instagram: `https://www.instagram.com/mikethedevdad/`,
+            github: `https://github.com/mikeyf06`,
+            twitter: `https://twitter.com/mikebytheday`,
+            instagram: `https://www.instagram.com/mikebytheday/`,
         }
     },
     

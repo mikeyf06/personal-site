@@ -5,18 +5,17 @@
   </a>
 </p>
 <h1 align="center">
-  Michael Flores' Personal Website
+  My Personal Website
 </h1>
 
 <p>My name is Michael Flores, but I typically go by Mike. I'm a Web Developer based in Chicago, IL. </p>
 
-<p> I've been developing software for over 6 years, and have been a part of 3 separate companies.</p> 
-<p> For the most part, I've been developing in the .NET stack, but I'd say I'm fairly proficient in JavaScript as well. Not the best, but I get by :). </p>
+<p> I've been developing software for over 10 years, and have been a part of 4 separate companies.</p> 
+<p> For the most part, I've developed in the .NET stack, mostly focused on Web Application Development. I've also dabbled a little in Mobile Development, but nothing extensive. </p>
 
-<p> As of 2-5-2021, I'm available for work. I'm looking form a mid-senior level .NET web developer position. I've got familiarity in .NET Standard, Core, MVC, SQL, React, and much more. Please feel free to reach out if there's anything
-that you have available that may work out.</p>
+<p> As of the end of 2024, I'm not actively looking for new permanent employment. Feel free to contact me via contact form on the website and we can discuss any side projects via email after that.</p>
 
-<p>Thanks for reading this if you have, have a good one! Also, this site is a work in progress, and I suck at design ;)</p>
+<p>Thanks for reading this if you have, have a good one!</p>
 
 <p>-Mike</p>
 
